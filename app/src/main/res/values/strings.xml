@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RandomChooser</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-7445145452689196/2834727866</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>

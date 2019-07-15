@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/menu_overflow"
+        android:icon="@drawable/abs_ic_menu"
+        android:orderInCategory="1"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/clearList"
+                android:orderInCategory="1"
+                android:title="Clear current list"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/saveList"
+                android:orderInCategory="2"
+                android:title="Save list"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/loadList"
+                android:orderInCategory="3"
+                android:title="Load list"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+</menu>
+
+
+
+
+
