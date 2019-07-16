@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
         opt = (EditText) findViewById(R.id.opt);
         slika = (ImageView) findViewById(R.id.slika);
         itemList = new ArrayList<>();
-        LinearLayout layout = (LinearLayout) findViewById(R.id.layout);
         path = getApplicationContext().getFilesDir().getAbsolutePath();
 
 
@@ -76,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
         trenutno.setAdapter(adapter);
 
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(trenutno.getContext(),
-                layout.getOrientation());
+                DividerItemDecoration.VERTICAL);
         trenutno.addItemDecoration(dividerItemDecoration);
 
 
